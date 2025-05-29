@@ -1,0 +1,32 @@
+p {
+  color: #1976d2;           /* Azul bonito */
+  font-size: 1.2rem;        /* Tamaño de fuente agradable */
+  font-family: 'Segoe UI', Arial, sans-serif; /* Fuente moderna */
+  background: #e3f2fd;      /* Fondo azul claro */
+  padding: 16px 24px;       /* Espaciado interno */
+  border-radius: 8px;       /* Bordes redondeados */
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.1); /* Sombra suave */
+  margin: 16px 0;           /* Espaciado externo */
+  line-height: 1.6;         /* Mejor legibilidad */
+}
+
+img {
+  max-width: 100%;          /* Imagen responsiva */
+  height: auto;             /* Mantener proporciones */
+  border-radius: 8px;       /* Bordes redondeados */
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.1); /* Sombra suave */
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;   /* Asegurar que padding y border no afecten el ancho */
+    margin: 0;                /* Eliminar márgenes por defecto */
+    padding: 0;               /* Eliminar padding por defecto */
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif; /* Fuente moderna */
+  line-height: 1.6;         /* Mejor legibilidad */
+  color: #333;              /* Color de texto oscuro */
+  background-color: #f5f5f5; /* Fondo claro */
+  padding: 20px;            /* Espaciado interno del cuerpo */
+}
